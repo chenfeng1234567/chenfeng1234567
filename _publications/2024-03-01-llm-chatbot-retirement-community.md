@@ -10,5 +10,3 @@ citation: 'Li, L.X., Chung, R., Chen, F., Zeng, W., Jeon, Y., Zaslavsky, O. (202
 ---
 
 This paper explores a user-centered design approach for developing LLM-powered chatbots specifically tailored for elderly users in retirement communities. We conducted interviews and user testing sessions with retirement community residents to understand their unique needs and challenges when interacting with technology. Based on these insights, we designed and refined an LLM-powered chatbot with accessibility features including adjustable font sizes, high-contrast modes, voice-to-text support, and simplified navigation. The chatbot was engineered with prompts optimized for clarity and responsiveness to enhance accessibility and user satisfaction among the elderly population.
-
-This work is currently under review. 

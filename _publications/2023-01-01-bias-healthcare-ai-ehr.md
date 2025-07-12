@@ -10,5 +10,3 @@ citation: 'Chen, F., Wang, L., Hong, J., Jiang, J., Zhou, L. (2024). &quot;Unmas
 ---
 
 We conducted a systematic review following PRISMA guidelines to examine bias detection and mitigation strategies in healthcare AI applications using electronic health records. We extracted papers related to bias handling in healthcare AI through scripts and key-word searches, manually reviewing and filtering over 200 papers. The full-text review recorded evaluation metrics, detailed methods, and classified types of bias and mitigation approaches, providing a comprehensive summary of the current landscape of bias handling in EHR-based AI systems.
-
-This work was published in the Journal of the American Medical Informatics Association. 

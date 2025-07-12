@@ -10,5 +10,3 @@ citation: 'Chen, F., Bedmutha, M.S., Chung, R.Y., Sabin, J., Pratt, W., Wood, B.
 ---
 
 This study explores automated methods for detecting biased social signals in patient-provider clinical conversations. We utilized ASR (Whisper) and speaker diarization (Pyannote) to transcribe and analyze patient-clinician conversations. Multiple NLP and LLM models were applied to train and classify social signal scores for patients and clinicians. We investigated implicit racial bias in clinical dialogs and optimized predictive performance for detecting social signals that may reflect biases in healthcare delivery.
-
-This work was presented at the AMIA Annual Symposium Proceedings 2024. 

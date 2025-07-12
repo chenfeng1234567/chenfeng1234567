@@ -10,5 +10,3 @@ citation: 'Bedmutha, M.S., Chen, F., Hartzler, A., Cohen, T., Weibel, N. (2025).
 ---
 
 This study investigates whether language models can understand social behavior in clinical conversations. We explore the capabilities of large language models in analyzing and interpreting social signals and behavioral patterns in patient-provider interactions, examining their potential for automated analysis of clinical communication dynamics.
-
-This work is currently under review. 

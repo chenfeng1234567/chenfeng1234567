@@ -10,5 +10,3 @@ citation: 'Ding, X., Sheng, Z., Hur, B., Chen, F., Pakhomov, S.V.S., Cohen, T. (
 ---
 
 This study investigates methods to enhance the robustness of foundation model representations when dealing with provenance-related distribution shifts. Distribution shifts, where the testing distribution differs from the training distribution, are a significant challenge in machine learning, especially in healthcare applications. This work presents approaches to make foundation models more resilient to these shifts, improving their generalizability and performance across different data sources and contexts.
-
-This work is currently under review. 

@@ -10,5 +10,3 @@ citation: 'Chen, F., Ben-Zeev, D., Sparks, G., Kadakia, A., Cohen, T. (2025). &q
 ---
 
 This study compares different approaches for detecting Post-Traumatic Stress Disorder (PTSD) from clinical interview transcripts. We developed and compared transformer-based and embedding-based NLP models (including Mental-RoBERTa, SentenceBERT, and LLaMA) for PTSD classification from clinical transcripts. We also implemented prompt-based PTSD classification using LLaMA with DSM-5-informed prompts. Our error analysis on symptom severity and depression comorbidity revealed model sensitivity to clinical subtleties that can be critical for accurate diagnosis.
-
-This work is currently under review. 

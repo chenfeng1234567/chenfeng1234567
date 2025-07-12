@@ -1,33 +1,14 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Experience"
+permalink: /experience/
 author_profile: true
 redirect_from:
-  - /resume
+  - /cv
+  - /research
 ---
 
 {% include base_path %}
-
-Education
-======
-* **PhD in Biomedical and Health Informatics**, University of Washington, Seattle, WA (Sep 2022 - Present)
-* **Master of Biomedical Informatics**, Harvard Medical School, Longwood, MA (Sep 2021 - Dec 2022)
-  * Cumulative GPA: 3.96
-* **BS in Biochemistry & Computer Science**, Brandeis University, Waltham, MA (Jan 2018 - Dec 2020)
-  * Cumulative GPA: 3.59 (Dean's list)
-  * GPA (Math & CS): 3.78
-  * Award: Jacques Cohen Award in Computer Science (awarded for excellent researchers)
-
-Skills
-======
-* **Programming**: Python (proficient), Java (proficient), SQL, R, Scheme, Matlab, HTML
-* **Software and tools**: AWS, Github, Photoshop, Git, Microsoft Office, Linux, Cortellis, CLI
-* **Research skills**: 
-  * Machine learning; deep learning; natural language processing; large language models
-  * Clinical data processing; automatic speech recognition; bioinformatics analysis
-  * Data cleaning, data analysis and visualization
-  * Proposal and manuscript writing; paper reviewing, qualitative coding
 
 Research Experience
 ======
@@ -92,10 +73,3 @@ Work Experience
 * New technologies research including t-RNA, Aptamers, Brain-computer interfaces and write publish information book
 * Collected and mapped Biotech companies early funded by several large ventures. Summarized their key technology and pipelines and clustered and visualized the recent trends of drug discovery
 * Collected and calculated the comprehensive market size and the potential growth rate for peptide drug market and supported the valuation of our newly incubated companies using DCF model
-
-Publications
-======
-{% include base_path %}
-{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}

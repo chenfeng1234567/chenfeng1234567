@@ -1,14 +1,14 @@
 ---
-title: "Unmasking Bias and Inequities: A Systematic Review of Bias Detection and Mitigation in Healthcare Artificial Intelligence Using Electronic Health Records"
+title: "A Systematic Review of Bias Handling Methods in Healthcare AI Applications using Electronic Health Records"
 collection: publications
 permalink: /publication/2023-bias-healthcare-ai-ehr
-excerpt: 'This systematic review examines bias detection and mitigation in healthcare AI systems that use electronic health records.'
+excerpt: 'This systematic review examines bias handling methods in healthcare AI applications using electronic health records data.'
 date: 2023-01-01
-venue: 'Journal of the American Medical Informatics Association (JAMIA)'
-paperurl: 'https://doi.org/10.1093/jamia/ocae060'
-citation: 'Chen, F., Wang, L., Hong, J., Jiang, J., Zhou, L. (2023). &quot;Unmasking Bias and Inequities: A Systematic Review of Bias Detection and Mitigation in Healthcare Artificial Intelligence Using Electronic Health Records.&quot; <i>Journal of the American Medical Informatics Association (JAMIA)</i>. DOI: 10.1093/jamia/ocae060'
+venue: 'Journal of the American Medical Informatics Association'
+paperurl: ''
+citation: 'Chen, F., Zhou, L., Hong, P. (2023). &quot;A Systematic Review of Bias Handling Methods in Healthcare AI Applications using Electronic Health Records.&quot; <i>Journal of the American Medical Informatics Association</i>.'
 ---
 
-We conducted a systematic review following PRISMA guidelines to examine bias detection and mitigation strategies in healthcare AI applications using electronic health records. We extracted papers related to bias handling in healthcare AI through scripts and key-word searches, manually reviewing and filtering over 200 papers. The full-text review recorded evaluation metrics, detailed methods, and classified types of bias and mitigation approaches, providing a comprehensive summary of the current landscape of bias handling in EHR-based AI systems.
+This systematic review examines bias handling methods in healthcare AI applications using electronic health records (EHR) data. We conducted a comprehensive literature search following the PRISMA workflow to identify and analyze over 200 papers related to bias handling in healthcare AI applications. Our review systematically categorizes different types of bias encountered in EHR data and evaluates various methods for bias detection and mitigation. We provide a comprehensive overview of evaluation metrics, detailed methodologies, and classification frameworks for bias types and handling approaches. The review highlights the importance of addressing bias in healthcare AI systems to ensure equitable and reliable clinical decision support tools.
 
-[Download paper here](https://doi.org/10.1093/jamia/ocae060) 
+This work is currently under review at the Journal of the American Medical Informatics Association. 

@@ -14,11 +14,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research"
-    url: /cv/#research-experience
-    
-  - title: "CV"
-    url: /cv/
+  - title: "Experience"
+    url: /experience/
     
   # - title: "Talks"
   #   url: /talks/    

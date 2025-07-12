@@ -1,14 +1,14 @@
 ---
-title: "Automated Detection of Biased Social Signals in Patient-Provider Clinical Dialogs using Natural Language Processing"
+title: "Toward Automated Detection of Biased Social Signals from the Content of Clinical Conversations"
 collection: publications
 permalink: /publication/2024-automated-detection-biased-social-signals
-excerpt: 'This study develops automated methods to detect and analyze social signals and potential biases in patient-provider clinical conversations using NLP techniques.'
+excerpt: 'This study explores automated methods for detecting biased social signals in patient-provider clinical conversations.'
 date: 2024-01-01
-venue: 'Journal of Biomedical Informatics'
+venue: 'AMIA Annual Symposium Proceedings 2024'
 paperurl: ''
-citation: 'Chen, F., Cohen, T., Zhou, L. (2024). &quot;Automated Detection of Biased Social Signals in Patient-Provider Clinical Dialogs using Natural Language Processing.&quot; <i>Journal of Biomedical Informatics</i>.'
+citation: 'Chen, F., Bedmutha, M.S., Chung, R.Y., Sabin, J., Pratt, W., Wood, B.R., Weibel, N., Hartzler, A.L., Cohen, T. (2024). &quot;Toward Automated Detection of Biased Social Signals from the Content of Clinical Conversations.&quot; <i>AMIA Annual Symposium Proceedings 2024</i>, 252.'
 ---
 
-This research investigates the use of natural language processing techniques to automatically detect and analyze social signals in patient-provider clinical conversations. We utilize automatic speech recognition (Whisper) and speaker diarization (Pyannote) to transcribe and segment patient-clinician conversations, then apply multiple NLP and large language model approaches to classify social signals scores for both patients and clinicians. The study specifically examines implicit racial bias in clinical dialogs and optimizes predictive performance for detecting social signals. Our approach demonstrates the potential for automated bias detection in healthcare communication, contributing to more equitable patient care.
+This study explores automated methods for detecting biased social signals in patient-provider clinical conversations. We utilized ASR (Whisper) and speaker diarization (Pyannote) to transcribe and analyze patient-clinician conversations. Multiple NLP and LLM models were applied to train and classify social signal scores for patients and clinicians. We investigated implicit racial bias in clinical dialogs and optimized predictive performance for detecting social signals that may reflect biases in healthcare delivery.
 
-This work is currently under review at the Journal of Biomedical Informatics. 
+This work was presented at the AMIA Annual Symposium Proceedings 2024. 

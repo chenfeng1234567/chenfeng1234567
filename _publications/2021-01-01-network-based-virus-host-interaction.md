@@ -1,14 +1,14 @@
 ---
-title: "Network-based Cross-species Model for Predicting SARS-CoV-2 Virus-host Interactions"
+title: "Network-based virus-host interaction prediction with application to SARS-CoV-2"
 collection: publications
 permalink: /publication/2021-network-based-virus-host-interaction
-excerpt: 'This study develops a network-based cross-species model to predict virus-host interactions of SARS-CoV-2 using deep learning and graph embedding techniques.'
+excerpt: 'This study presents a network-based approach to predict virus-host protein interactions, with specific application to SARS-CoV-2.'
 date: 2021-01-01
-venue: 'Bioinformatics'
+venue: 'Patterns 2 (5)'
 paperurl: ''
-citation: 'Chen, F., Liu, H., Hong, P. (2021). &quot;Network-based Cross-species Model for Predicting SARS-CoV-2 Virus-host Interactions.&quot; <i>Bioinformatics</i>.'
+citation: 'Du, H., Chen, F., Liu, H., Hong, P. (2021). &quot;Network-based virus-host interaction prediction with application to SARS-CoV-2.&quot; <i>Patterns 2 (5)</i>.'
 ---
 
-This research investigates virus-host interactions of SARS-CoV-2 using a network-based cross-species model. We researched the virus-host interactions of other published coronaviruses and compared SARS-CoV-2 with them after multiple sequence alignment in terms of domains, functions and mutations. We built graphs presenting sequence similarities in viral and host proteins and networks of protein-protein interactions. Using graph embedding and deep learning techniques, we trained a network-based cross-species model to predict highly potential protein-protein interactions and pathways of SARS-CoV-2 among animals. Our approach provides insights into the molecular mechanisms of SARS-CoV-2 infection and potential therapeutic targets.
+This paper presents a network-based approach to predict virus-host protein interactions. We researched virus-host interactions of published coronaviruses and compared SARS-CoV-2 with them after multiple sequence alignment in terms of domains, functions, and mutations. Our model used graph embedding and deep learning to train a network-based cross-species model to predict the highly potential protein-protein interactions and pathways of SARS-CoV-2 among animals.
 
-This work is currently under review at Bioinformatics. 
+This work was published in Patterns. 

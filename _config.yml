@@ -22,7 +22,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile.png"
+  avatar           : "feng.png"
   name             : "Feng Chen"
   pronouns         : "he/him"  
   bio              : "PhD candidate in Biomedical and Health Informatics"

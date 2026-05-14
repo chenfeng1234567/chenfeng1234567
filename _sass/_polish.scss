@@ -1,0 +1,329 @@
+/* ==========================================================================
+   POLISH — custom enhancements layered on top of the academicpages theme
+   ========================================================================== */
+
+/* Hero card on the About page */
+.hero-card {
+  margin: 0.5em 0 2em;
+  padding: 1.6em 1.8em;
+  background: linear-gradient(135deg, #f4f8fb 0%, #eef3f9 100%);
+  border: 1px solid var(--global-border-color);
+  border-left: 5px solid var(--global-link-color);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(20, 40, 70, 0.06);
+}
+
+.hero-greeting {
+  margin: 0 0 0.4em 0;
+  font-size: 1.9em;
+  line-height: 1.15;
+  color: var(--global-text-color);
+}
+
+.hero-wave {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: hero-wave 2.4s ease-in-out infinite;
+}
+
+@keyframes hero-wave {
+  0%   { transform: rotate(0deg); }
+  10%  { transform: rotate(14deg); }
+  20%  { transform: rotate(-8deg); }
+  30%  { transform: rotate(14deg); }
+  40%  { transform: rotate(-4deg); }
+  50%  { transform: rotate(10deg); }
+  60%  { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.hero-lede {
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: var(--global-text-color);
+  margin-bottom: 1em;
+}
+
+.hero-actions {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55em;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.45em 0.95em;
+  background: var(--global-link-color);
+  color: #fff !important;
+  font-size: 0.92em;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(20, 40, 70, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    background: var(--global-link-color-hover);
+    box-shadow: 0 4px 10px rgba(20, 40, 70, 0.18);
+    text-decoration: none !important;
+  }
+
+  i {
+    font-size: 1em;
+  }
+}
+
+.hero-btn--ghost {
+  background: transparent;
+  color: var(--global-link-color) !important;
+  border: 1px solid var(--global-link-color);
+  box-shadow: none;
+
+  &:hover {
+    background: var(--global-link-color);
+    color: #fff !important;
+  }
+}
+
+/* Research-interest cards */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1em;
+  margin: 1em 0 1.5em;
+}
+
+.topic-card {
+  padding: 1.1em 1.15em;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(20, 40, 70, 0.04);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(20, 40, 70, 0.08);
+    border-color: var(--global-link-color);
+  }
+
+  h4 {
+    margin: 0.35em 0 0.45em;
+    font-size: 1.02em;
+    color: var(--global-text-color);
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.92em;
+    line-height: 1.45;
+    color: var(--global-text-color);
+  }
+}
+
+.topic-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(82, 173, 200, 0.12);
+  color: var(--global-link-color);
+  font-size: 1.05em;
+}
+
+/* Experience timeline */
+.timeline {
+  position: relative;
+  margin: 0.5em 0 1.5em;
+  padding-left: 1.4em;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.4em;
+    bottom: 0.4em;
+    left: 0.35em;
+    width: 2px;
+    background: var(--global-border-color);
+    border-radius: 2px;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.2em;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -1.15em;
+  top: 0.55em;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--global-link-color);
+  box-shadow: 0 0 0 4px rgba(82, 173, 200, 0.18);
+}
+
+.timeline-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5em;
+
+  h4 {
+    margin: 0;
+    font-size: 1.05em;
+    color: var(--global-text-color);
+  }
+}
+
+.timeline-date {
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+.timeline-sub {
+  margin: 0.1em 0 0.25em;
+  font-size: 0.92em;
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
+.timeline-content p {
+  margin: 0.2em 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.cv-download {
+  margin: 0.2em 0 1.3em;
+}
+
+/* Publications page polish */
+.pub-intro {
+  margin: 0.2em 0 1.4em;
+  padding: 0.7em 1em;
+  background: #f6f9fc;
+  border-left: 3px solid var(--global-link-color);
+  border-radius: 6px;
+  font-size: 0.95em;
+}
+
+.pub-year {
+  margin: 1.6em 0 0.6em;
+  padding-bottom: 0.25em;
+  font-size: 1.3em;
+  color: var(--global-link-color);
+  border-bottom: 2px solid var(--global-border-color);
+  letter-spacing: 0.5px;
+}
+
+.pub-year-group {
+  margin-bottom: 1em;
+}
+
+.pub-year-group .list__item,
+.pub-year-group .archive__item {
+  margin-bottom: 1.1em;
+  padding: 0.9em 1em 0.95em;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  transition: box-shadow 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+
+  &:hover {
+    box-shadow: 0 6px 16px rgba(20, 40, 70, 0.07);
+    border-color: var(--global-link-color);
+  }
+}
+
+.pub-year-group .archive__item-title {
+  margin-top: 0.1em;
+  font-size: 1.05em;
+  line-height: 1.35;
+
+  a {
+    text-decoration: none;
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-link-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-year-group .archive__item-excerpt {
+  font-size: 0.93em;
+  line-height: 1.5;
+  color: var(--global-text-color);
+}
+
+.pub-year-group .archive__item p {
+  font-size: 0.92em;
+  line-height: 1.5;
+}
+
+.permalink-icon {
+  opacity: 0.45;
+  margin-left: 0.25em;
+  font-size: 0.8em;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+/* Soften sidebar avatar */
+.author__avatar img {
+  box-shadow: 0 4px 14px rgba(20, 40, 70, 0.10);
+  transition: transform 0.25s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+/* Cleaner section headers in content */
+.page__content {
+  h2 {
+    margin-top: 1.6em;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid var(--global-border-color);
+    color: var(--global-text-color);
+  }
+
+  h3 {
+    margin-top: 1.3em;
+    color: var(--global-link-color-hover);
+  }
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .hero-card {
+    padding: 1.2em 1.1em;
+  }
+
+  .hero-greeting {
+    font-size: 1.55em;
+  }
+
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-head {
+    flex-direction: column;
+    gap: 0.1em;
+  }
+}

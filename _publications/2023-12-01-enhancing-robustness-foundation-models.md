@@ -2,11 +2,13 @@
 title: "Enhancing Robustness of Foundation Model Representations under Provenance-related Distribution Shifts"
 collection: publications
 permalink: /publication/2023-enhancing-robustness-foundation-models
-excerpt: 'This study explores methods to enhance the robustness of foundation model representations when dealing with provenance-related distribution shifts.'
+excerpt: 'Methods to make foundation-model representations more robust to provenance-related distribution shifts in clinical text.'
 date: 2023-12-01
-venue: 'arXiv preprint arXiv:2312.05435'
-paperurl: ''
-citation: 'Ding, X., Sheng, Z., Hur, B., Chen, F., Pakhomov, S.V.S., Cohen, T. (2023). &quot;Enhancing Robustness of Foundation Model Representations under Provenance-related Distribution Shifts.&quot; <i>arXiv preprint arXiv:2312.05435</i>.'
+venue: 'Workshop on Distribution Shifts, 37th Conference on Neural Information Processing Systems (NeurIPS 2023)'
+paperurl: 'https://arxiv.org/abs/2312.05435'
+citation: 'Ding, X., Sheng, Z., Hur, B., <b>Chen, F.</b>, Pakhomov, S. V. S., &amp; Cohen, T. (2023). &quot;Enhancing Robustness of Foundation Model Representations under Provenance-related Distribution Shifts.&quot; <i>NeurIPS 2023 Workshop on Distribution Shifts</i>.'
 ---
 
-This study investigates methods to enhance the robustness of foundation model representations when dealing with provenance-related distribution shifts. Distribution shifts, where the testing distribution differs from the training distribution, are a significant challenge in machine learning, especially in healthcare applications. This work presents approaches to make foundation models more resilient to these shifts, improving their generalizability and performance across different data sources and contexts.
+This work investigates how to make foundation-model representations more robust when the testing distribution diverges from the training distribution due to provenance differences. We present approaches that improve generalizability and downstream performance of foundation models in clinical settings where data sources and contexts shift.
+
+[Read on arXiv](https://arxiv.org/abs/2312.05435){:target="_blank"}

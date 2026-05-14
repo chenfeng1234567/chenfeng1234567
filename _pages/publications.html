@@ -5,16 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- Publications list -->
-{% for post in site.publications reversed %}
+<p class="pub-intro">
+  A current list of my publications. <i>*</i> denotes co-first authorship. You can also browse my profile on
+  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}{% if site.author.orcid %} and <a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}.
+</p>
+
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% assign year_now = '' %}
+{% for post in sorted_pubs %}
+  {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% if year != year_now %}
+    {% unless forloop.first %}</div>{% endunless %}
+    <h2 class="pub-year">{{ year }}</h2>
+    <div class="pub-year-group">
+    {% assign year_now = year %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-
-
-
+</div>

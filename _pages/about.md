@@ -11,11 +11,11 @@ redirect_from:
 {% include base_path %}
 
 <div class="hero-card">
-  <h2 class="hero-greeting">Hi, I'm Feng <span class="hero-wave">👋</span></h2>
+  <h2 class="hero-greeting">Hi, I'm Feng</h2>
   <p class="hero-lede">
     I'm a PhD candidate in <strong>Biomedical and Health Informatics</strong> at the
     <strong>University of Washington</strong>, advised by
-    <a href="https://faculty.washington.edu/cohenta/" target="_blank" rel="noopener">Prof. Trevor Cohen</a>.
+    <a href="https://bime.uw.edu/faculty/trevor-cohen/" target="_blank" rel="noopener">Prof. Trevor Cohen</a>.
     My research applies <em>natural language processing</em>, <em>large language models</em>,
     and <em>speech technology</em> to better understand clinical communication and to build
     accessible, equitable health technologies.

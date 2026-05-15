@@ -11,4 +11,4 @@ citation: 'Ding, X., Sheng, Z., Hur, B., <b>Chen, F.</b>, Pakhomov, S. V. S., &a
 
 This work investigates how to make foundation-model representations more robust when the testing distribution diverges from the training distribution due to provenance differences. We present approaches that improve generalizability and downstream performance of foundation models in clinical settings where data sources and contexts shift.
 
-[Read on arXiv](https://arxiv.org/abs/2312.05435){:target="_blank"}
+[Available on arXiv](https://arxiv.org/abs/2312.05435){:target="_blank"}

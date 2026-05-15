@@ -20,23 +20,6 @@
   color: var(--global-text-color);
 }
 
-.hero-wave {
-  display: inline-block;
-  transform-origin: 70% 70%;
-  animation: hero-wave 2.4s ease-in-out infinite;
-}
-
-@keyframes hero-wave {
-  0%   { transform: rotate(0deg); }
-  10%  { transform: rotate(14deg); }
-  20%  { transform: rotate(-8deg); }
-  30%  { transform: rotate(14deg); }
-  40%  { transform: rotate(-4deg); }
-  50%  { transform: rotate(10deg); }
-  60%  { transform: rotate(0deg); }
-  100% { transform: rotate(0deg); }
-}
-
 .hero-lede {
   font-size: 1.05em;
   line-height: 1.6;

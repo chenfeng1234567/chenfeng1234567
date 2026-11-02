@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Feng Chen | PhD Candidate in Biomedical & Health Informatics"
+title                    : "Feng Chen | PhD Candidate in Health Informatics"
 title_separator          : "-"
 name                     : &name "Feng Chen"
-description              : &description "PhD candidate in Biomedical and Health Informatics at University of Washington"
+description              : &description "PhD candidate in Health Informatics at the University of Washington"
 url                      : https://chenfeng1234567.github.io/chenfeng1234567/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #repository               : "academicpages/academicpages.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "feng.png"
   name             : "Feng Chen"
   pronouns         : "he/him"  
-  bio              : "PhD candidate at UW studying clinical NLP, LLMs for mental health, and bias in patient–provider communication."
+  bio              : "PhD candidate at UW studying clinical NLP, speech-based mental-health assessment, and robustness and bias in health AI."
   location         : "Seattle, WA, USA"
   employer         : "University of Washington"
   uri              : # URL

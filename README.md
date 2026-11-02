@@ -1,10 +1,10 @@
 # Feng Chen - Personal Academic Website
 
-This is my personal academic website showcasing my research, publications, and professional experience in Biomedical and Health Informatics.
+This is my personal academic website showcasing my research, publications, and professional experience in health informatics.
 
 ## About Me
 
-I am a PhD student in Biomedical and Health Informatics at the University of Washington, working under the supervision of Prof. Trevor Cohen. My research focuses on developing and applying natural language processing and machine learning techniques to address healthcare challenges, with particular emphasis on mental health applications, bias detection in clinical conversations, and accessible technology design for elderly populations.
+I am a PhD candidate in Health Informatics at the University of Washington, working under the supervision of Prof. Trevor Cohen. My research applies natural language processing, large language models, and human-centered AI to mental-health assessment, robustness and bias, and accessible technology for older adults.
 
 ## Research Areas
 

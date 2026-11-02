@@ -13,12 +13,13 @@ redirect_from:
 <div class="hero-card">
   <h2 class="hero-greeting">Hi, I'm Feng</h2>
   <p class="hero-lede">
-    I'm a PhD candidate in <strong>Biomedical and Health Informatics</strong> at the
+    I'm a PhD candidate in <strong>Health Informatics</strong> at the
     <strong>University of Washington</strong>, advised by
     <a href="https://bime.uw.edu/faculty/trevor-cohen/" target="_blank" rel="noopener">Prof. Trevor Cohen</a>.
-    My research applies <em>natural language processing</em>, <em>large language models</em>,
-    and <em>speech technology</em> to better understand clinical communication and to build
-    accessible, equitable health technologies.
+    My research sits at the intersection of <em>natural language processing</em>,
+    <em>large language models</em>, and <em>human-centered AI</em> — including LLM and agent
+    evaluation, robustness and bias auditing, and speech- and language-based assessment of
+    mental health.
   </p>
   <p class="hero-actions">
     <a class="hero-btn" href="{{ base_path }}/files/CV_Feng_Chen_2026.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Curriculum Vitae</a>
@@ -35,35 +36,37 @@ I work at the intersection of clinical NLP, mental health, and human-centered AI
   <div class="topic-card">
     <div class="topic-icon"><i class="fas fa-brain"></i></div>
     <h4>Mental Health NLP</h4>
-    <p>Detecting PTSD, depression, and thought disorder from clinical interviews using transformer models and LLMs.</p>
+    <p>Detecting PTSD, depression, thought disorder, and delusional content from clinical interviews and naturalistic speech using transformer models and LLMs.</p>
   </div>
   <div class="topic-card">
     <div class="topic-icon"><i class="fas fa-balance-scale"></i></div>
     <h4>Bias &amp; Equity in Clinical AI</h4>
-    <p>Identifying and mitigating racial and demographic bias in patient–provider conversations and EHR-based models.</p>
+    <p>Identifying and mitigating racial and demographic bias in patient–provider conversations and EHR-based models, and auditing robustness of language systems.</p>
   </div>
   <div class="topic-card">
     <div class="topic-icon"><i class="fas fa-microphone-alt"></i></div>
     <h4>Speech &amp; Multimodal Signals</h4>
-    <p>Using ASR, speaker diarization, and acoustic-linguistic features to characterize clinical dialogue.</p>
+    <p>Using ASR, speaker diarization, pause dynamics, and semantic coherence to characterize clinical dialogue.</p>
   </div>
   <div class="topic-card">
     <div class="topic-icon"><i class="fas fa-users"></i></div>
     <h4>Accessible LLM Systems</h4>
-    <p>Co-designing voice-enabled LLM chatbots with older adults to improve technology and eHealth literacy.</p>
+    <p>Co-designing voice-enabled LLM chatbots with older adults in retirement communities to improve technology and eHealth literacy.</p>
   </div>
 </div>
 
 ## Current Projects
 
-- **PTSD &amp; Depression Detection** — Comparative analysis of transformer and embedding-based NLP models (Mental-RoBERTa, SentenceBERT, LLaMA) and DSM-5-informed LLM prompting on clinical interview transcripts.
-- **Biased Social Signals** — Automated detection of biased social signals in patient–provider clinical dialogs from real recorded encounters.
-- **Clinical Signatures for Hallucinations** — Building a multimodal pipeline that derives data-driven signatures from mobile behavioral tasks to predict severe outcomes among people experiencing hallucinations.
-- **Voice-Enabled Chatbots for Older Adults** — User-centered design and evaluation of LLM-powered chatbots deployed in a retirement community.
+- **Mental Illness Detection** — Comparing transformer and embedding models (Mental-RoBERTa, SentenceBERT, LLaMA) and DSM-5-informed LLM prompts for PTSD and depression in clinical interviews, and tracing linguistic biomarkers in clinical interactions.
+- **Biased Social Signals** — Training NLP and LLM models to classify social-signal scores and to detect implicit racial bias in patient–provider conversations transcribed with Whisper and Pyannote.
+- **Clinical Signatures for Hallucinations** — A multimodal pipeline that derives data-driven signatures from mobile behavioral tasks, combining pause dynamics and semantic coherence to assess thought disorder.
+- **Delusional Content in Audio Diaries** — A four-level prompt framework and multi-agent LLM pipeline (GPT-OSS, Qwen, GLM) for delusional themes and affective and behavioral responses in naturalistic speech.
+- **Voice-Enabled Chatbots for Older Adults** — Co-design and evaluation of an LLM-powered, voice-enabled community chatbot with 30+ retirement-community residents.
+- **Digital Therapeutic for PTSD** — Using LLMs to synthesize evidence-based treatment components, refine them with experts, and turn the validated content into specifications for a PTSD mHealth app.
 
 ## Background
 
-I earned my <strong>M.S. in Biomedical Informatics</strong> from <strong>Harvard Medical School</strong> (GPA 3.96), where I worked with Dr. Li Zhou and Prof. Pengyu Hong on bias in EHR-based AI and mortality prediction for ARDS. Before that I completed a double major in <strong>Biochemistry &amp; Computer Science</strong> at <strong>Brandeis University</strong>, receiving the Jacques Cohen Award in Computer Science. I have also interned at <strong>Amazon</strong> (Supply Chain Optimization SDE) and <strong>Gordian Ventures</strong> (biotech investment research).
+I earned my <strong>Master of Biomedical Informatics</strong> from <strong>Harvard Medical School</strong> (GPA 3.96), where I worked with Dr. Li Zhou and Prof. Pengyu Hong on bias in EHR-based AI and mortality prediction for ARDS. Before that I completed a double major in <strong>Biochemistry &amp; Computer Science</strong> at <strong>Brandeis University</strong>, receiving the Jacques Cohen Award in Computer Science. I was an Applied Scientist Intern at <strong>Microsoft</strong> (robustness of enterprise AI agents) and a Software Development Engineer Intern at <strong>Amazon</strong> (Supply Chain Optimization), and I interned at <strong>Gordian Ventures</strong> (biotech investment research).
 
 ## Get in Touch
 
